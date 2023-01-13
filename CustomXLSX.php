@@ -11,7 +11,7 @@
 
 class CustomXLSX
 {
-	public $xlsx_name = 'default.zip'; // nastavi se zvenci
+	public $xlsx_name = 'default.xlsx'; // nastavi se zvenci
 	private $date_now = '';
 	private $microtime_now = ''; // pro rozliseni slozky pro pripad vice requests najednou
 	private $general_path = ''; // viz construct
