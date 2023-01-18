@@ -6,7 +6,7 @@ CustomXLSX.php byl napsán v PHP 5.5.38. Zjevně tedy není kompatibilní mapř�
 
 Použití je znázorněno v souboru pouziti.php. Ani ten není otestován, ale teoreticky by měl takto fungovat. CustomXLSX->Input() přijímá dvoudimenzionální pole, přičemž každé vnitřní pole reprezentuje řádek (s výjimkou prvního - to může obsahovat jednotlivé šířky buněk). Každá jednotlivá buňka může obsahovat tagy.
 
-Tagy, ktere je mozno pouzit (vloží se na začátek buňky v libovolném pořadí) - každý je zvlášť ohraničen "zobáčky" jako HTML tagy:
+Tagy, které je možno použít (vloží se na začátek buňky v libovolném pořadí) - každý je zvlášť ohraničen "zobáčky" jako HTML tagy:
  - b - tučný text (v celé buňce)
  - bg#hexdec - hexadecimální barva pozadí
  - ce - vycentrování (vertikální i horizontální)
