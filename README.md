@@ -12,5 +12,5 @@ Tagy, které je možno použít (vloží se na začátek buňky v libovolném po
  - ce - vycentrování (vertikální i horizontální)
  - border - hranice na všech 4 stranach - když je tento tag obsažen v menším množstvím buňek, nefunguje správně
 
-JAK TO FUNGUJE
-  CustomXLSX.php založí na serveru složku, v níž vytvoří strukturu složek se soubory obsahující XML. Tato struktura složek se zabalí jako zip, nicméně s koncovkou XLSX. Prohlížeč soubor následně uloží mezi stažené soubory a strukturu složek ze serveru smaže. Tento soubor XLSX je funkční (alespoň byl při testech na serveru).
+JAK TO FUNGUJE:
+CustomXLSX.php založí na serveru složku, v níž vytvoří strukturu složek se soubory obsahující XML. Tato struktura složek se zabalí jako zip, nicméně s koncovkou XLSX. Prohlížeč soubor následně uloží mezi stažené soubory a strukturu složek ze serveru smaže. Tento soubor XLSX je funkční (alespoň byl při testech na serveru).
